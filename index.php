@@ -21,44 +21,7 @@
 
     <!-- header -->
 
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                Travel
-            </a>
-
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link active-link">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#popular" class="nav__link">Popular</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#explore" class="nav__link">Explore</a>
-                    </li>
-                </ul>
-
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
-            </div>
-
-        </nav>
-    </header>
+    <?php include('header.php'); ?>
     
     <!-- main -->
 
@@ -92,33 +55,39 @@
 
                 <div class="home__cards grid">
                     <article class="home__card">
-                        <a href="content.html" class="nav__link active-link">
+                        <a href="content.php?id=1" class="nav__link active-link">
                             <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
                                 alt="home image" class="home__card-img">
-                            <h3 class="home__card-title">Croatia</h3>
+                            <h3 class="home__card-title">ภาคเหนือ</h3>
                             <div class="home__card-shadow"></div>
                         </a>
                     </article>
 
                     <article class="home__card">
+                      <a href="content.php?id=2" class="nav__link active-link">
                         <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
                             alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">Iceland</h3>
+                        <h3 class="home__card-title">ภาคใต้</h3>
                         <div class="home__card-shadow"></div>
+                      </a>  
                     </article>
 
                     <article class="home__card">
+                      <a href="content.php?id=3" class="nav__link active-link"> 
                         <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
                             alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">Italy</h3>
+                        <h3 class="home__card-title">ภาคตะวันออก</h3>
                         <div class="home__card-shadow"></div>
+                      </a> 
                     </article>
 
                     <article class="home__card">
+                      <a href="content.php?id=4" class="nav__link active-link"> 
                         <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
                             alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">Spain</h3>
+                        <h3 class="home__card-title">ภาคตะวันตก</h3>
                         <div class="home__card-shadow"></div>
+                      </a> 
                     </article>
                 </div>
 
@@ -290,132 +259,7 @@
 
     <!-- footer -->
 
-    <footer class="footer">
-        <div class="footer__container container grid">
-            <div class="footer__content grid">
-                <div>
-                    <a href="" class="footer__logo">Travel</a>
-
-                    <p class="footer__description">
-                        TJSLJDJKDJSKD <br>
-                        asjdijasodjojaadas
-                    </p>
-                </div>
-
-                <div class="footer__data grid">
-                    <div>
-                        <h3 class="footer__title">About</h3>
-
-                        <ul class="footer__links">
-
-                            <li>
-                                <a href="#" class="footer__link">About Us</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Features</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">News & Blog</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Company</h3>
-
-                        <ul class="footer__links">
-
-                            <li>
-                                <a href="#" class="footer__link">FAQs</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">History</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Testimonials</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Contact</h3>
-
-                        <ul class="footer__links">
-
-                            <li>
-                                <a href="#" class="footer__link">Call center</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Support Center</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Contact Us</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Support</h3>
-
-                        <ul class="footer__links">
-
-                            <li>
-                                <a href="#" class="footer__link">Privacy Policy</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Terms & Services</a>
-                            </li>
-
-                            <li>
-                                <a href="#" class="footer__link">Contact Us</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__group">
-                <div class="footer__social">
-                    <a href="https://www.instagram.com/jeongwon112/" target="_blank" class="footer__social-link">
-                        <i class="ri-facebook-line"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/jeongwon112/" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/jeongwon112/" target="_blank" class="footer__social-link">
-                        <i class="ri-twitter-x-line"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/jeongwon112/" target="_blank" class="footer__social-link">
-                        <i class="ri-youtube-line"></i>
-                    </a>
-
-                </div>
-
-                <span class="footer__copy">
-                    &#169; Copyright Bedimcode. All rights reserved
-                </span>
-
-            </div>
-        </div>
-    </footer>
+   <?php include('footer.php'); ?>
 
     <!-- scroll up -->
 
