@@ -20,8 +20,6 @@ fetch("http://localhost:5000/travel/"+ id)
      get.name +
     '</h2>' +
     '<div class="popular__location">' +
-    '<i class="ri-map-pin-line"></i>' +
-    '<span>'+ get.detail +'</span>' +
     '</div>' +
     '</article>'
      
@@ -39,20 +37,21 @@ fetch("http://localhost:5000/travel/"+ id)
 })
 
 // datahead 
-fetch("http://localhost:5000/travel/"+ id + "/1")
-.then(Response => Response.json())
-.then(data => {
-  console.log(data);
-  data.forEach(get => {
-    const postElement = document.createElement("div");
-    postElement.innerHTML ='<h2 class="section__title">'+
-    get.region +
-    '</h2>' 
+fetch("http://localhost:5000/travel/" + id)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+    if (data.length > 0) {
+      const firstItem = data[0]; // Accessing the first item directly
+      const postElement = document.createElement("div");
+      postElement.innerHTML = '<h2 class="section__title">' +
+        firstItem.region +
+        '</h2>'; 
     
      // นำ Element ไปแปะที่ Container
      datahead.appendChild(postElement);
 
-  })  
+  }
 })
 .catch(error =>{
   console.log("Error fetching data:", error);

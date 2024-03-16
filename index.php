@@ -27,7 +27,7 @@
 
     <main class="main">
         <section class="home section" id="home">
-            <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
+            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218658027276734535/1ecfe5d08d8c1803.jpg?ex=660876bb&is=65f601bb&hm=6a844180e3a69be92d8d0c1d3e84e236677b5fcae6951234313f4983bc85492c&"
                 alt="home image" class="home__bg">
             <div class="home__shadow"></div>
 
@@ -43,20 +43,18 @@
                     </h1>
 
                     <p class="home__description">
-                        Live Theaokdopaspkdaosdpaopdskoka
-                        asldla[ldsalda;dsadjsa
-                        askdopkadad.
+                        Travel in Thailand
                     </p>
 
                     <a href="" class="button">
-                        Start kd[adaopk <i class="ri-arrow-right-line"></i>
+                        Start <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
 
                 <div class="home__cards grid">
                     <article class="home__card">
                         <a href="content.php?id=1" class="nav__link active-link">
-                            <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
+                            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218632718305198110/R.jpg?ex=66085f29&is=65f5ea29&hm=8b8a1f229c108f7a41c9dbaaf56cf3ddc5fde074d2ffefa1fdbee9ee542413f5&"
                                 alt="home image" class="home__card-img">
                             <h3 class="home__card-title">ภาคเหนือ</h3>
                             <div class="home__card-shadow"></div>
@@ -65,7 +63,7 @@
 
                     <article class="home__card">
                       <a href="content.php?id=2" class="nav__link active-link">
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
+                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218642668176015401/hong-island-33.jpg?ex=6608686d&is=65f5f36d&hm=dfa0c74cf62b0cc6ba213a73db38c375c791ed14cfa11d8fbf3138f18b041d04&"
                             alt="home image" class="home__card-img">
                         <h3 class="home__card-title">ภาคใต้</h3>
                         <div class="home__card-shadow"></div>
@@ -74,18 +72,18 @@
 
                     <article class="home__card">
                       <a href="content.php?id=3" class="nav__link active-link"> 
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
+                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218647767337926756/P03006451_1.jpg?ex=66086d2d&is=65f5f82d&hm=045e37c5d5e68826a739de09cedd29aa5a55f0ab76b68641fe59978de72a71a5&"
                             alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">ภาคตะวันออก</h3>
+                        <h3 class="home__card-title">ภาคกลาง</h3>
                         <div class="home__card-shadow"></div>
                       </a> 
                     </article>
 
                     <article class="home__card">
                       <a href="content.php?id=4" class="nav__link active-link"> 
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
+                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218656665763709000/a9e9317d749f498835d82b4956f7fc2aa8c9a766.jpg?ex=66087576&is=65f60076&hm=646f2ff156c2ead150cfd91d28478ea2cb821de1755bd87b03ff88bcd75c17ff&"
                             alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">ภาคตะวันตก</h3>
+                        <h3 class="home__card-title">ภาคตะวันออกเฉียงเหนือ</h3>
                         <div class="home__card-shadow"></div>
                       </a> 
                     </article>
@@ -193,7 +191,7 @@
         <section class="explore section" id="explore">
             <div class="explore__container">
                 <div class="explore__image">
-                    <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/275552213_516609656698360_2210619692264270354_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_r5qvtFCAYUAX8eTDb2&_nc_oc=AQkrrJtueFfqZ_nOlR8UaUb6fthfP3LZJpzmFajMRfOmQxEd0uSgqlhQqt6rUqfLbcRpcNKlmaD26sKN1-wgKeXz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDtMWFfopyaZsZfWOSHE9F8Lw7k7JBscjfRUM82woJBpg&oe=65F81EC6"
+                    <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218657927087525918/cover_name-01-3.jpg?ex=660876a3&is=65f601a3&hm=2010745ecf7039a60a775f7246ef2e8bda7ee7de4361ff09001cbe3fd8d642c5&"
                         alt="explore image" class="explore__img">
                     <div class="explore__shadow"></div>
                 </div>
