@@ -19,36 +19,47 @@
 
 <body>
 
+    <!-- open -->
+
+    <div class="layeropen">
+        <img src="img/plane.png" class="plane">
+    </div>
+    <section class="open1"></section>
+    <div class="textopen">
+        <h2>Welcome To<br><span>Thailand</span></h2>
+    </div>
+    <section class="open2"></section>
+    <script>
+        let layeropen = document.querySelector('.layeropen');
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY;
+            layeropen.style.left = value * 2 + 'px';
+        })
+    </script>
     <!-- header -->
 
-    <?php include('header.php'); ?>
-    
+    <?php include ('header.php'); ?>
+
     <!-- main -->
 
     <main class="main">
         <section class="home section" id="home">
-            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218658027276734535/1ecfe5d08d8c1803.jpg?ex=660876bb&is=65f601bb&hm=6a844180e3a69be92d8d0c1d3e84e236677b5fcae6951234313f4983bc85492c&"
-                alt="home image" class="home__bg">
+                <video autoplay muted loop>
+                    <source src="img/seoul21116.mp4" type="video/mp4" alt="home image" class="home__bg">
+                </video>
             <div class="home__shadow"></div>
 
             <div class="home__container container grid">
                 <div class="home__data">
                     <h3 class="home__subtitle">
-                        Welcome To Tracel
+                        Recommend website
                     </h3>
 
                     <h1 class="home__title">
-                        Explore <br>
-                        The World
+                        Location <br>
+                        Travel
                     </h1>
 
-                    <p class="home__description">
-                        Travel in Thailand
-                    </p>
-
-                    <a href="" class="button">
-                        Start <i class="ri-arrow-right-line"></i>
-                    </a>
                 </div>
 
                 <div class="home__cards grid">
@@ -56,36 +67,36 @@
                         <a href="content.php?id=1" class="nav__link active-link">
                             <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218632718305198110/R.jpg?ex=66085f29&is=65f5ea29&hm=8b8a1f229c108f7a41c9dbaaf56cf3ddc5fde074d2ffefa1fdbee9ee542413f5&"
                                 alt="home image" class="home__card-img">
-                            <h3 class="home__card-title">ภาคเหนือ</h3>
+                            <h3 class="home__card-title">The North</h3>
                             <div class="home__card-shadow"></div>
                         </a>
                     </article>
 
                     <article class="home__card">
-                      <a href="content.php?id=2" class="nav__link active-link">
-                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218642668176015401/hong-island-33.jpg?ex=6608686d&is=65f5f36d&hm=dfa0c74cf62b0cc6ba213a73db38c375c791ed14cfa11d8fbf3138f18b041d04&"
-                            alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">ภาคใต้</h3>
-                        <div class="home__card-shadow"></div>
-                      </a>  
+                        <a href="content.php?id=2" class="nav__link active-link">
+                            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218642668176015401/hong-island-33.jpg?ex=6608686d&is=65f5f36d&hm=dfa0c74cf62b0cc6ba213a73db38c375c791ed14cfa11d8fbf3138f18b041d04&"
+                                alt="home image" class="home__card-img">
+                            <h3 class="home__card-title">The South</h3>
+                            <div class="home__card-shadow"></div>
+                        </a>
                     </article>
 
                     <article class="home__card">
-                      <a href="content.php?id=3" class="nav__link active-link"> 
-                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218647767337926756/P03006451_1.jpg?ex=66086d2d&is=65f5f82d&hm=045e37c5d5e68826a739de09cedd29aa5a55f0ab76b68641fe59978de72a71a5&"
-                            alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">ภาคกลาง</h3>
-                        <div class="home__card-shadow"></div>
-                      </a> 
+                        <a href="content.php?id=3" class="nav__link active-link">
+                            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218647767337926756/P03006451_1.jpg?ex=66086d2d&is=65f5f82d&hm=045e37c5d5e68826a739de09cedd29aa5a55f0ab76b68641fe59978de72a71a5&"
+                                alt="home image" class="home__card-img">
+                            <h3 class="home__card-title">The Central region</h3>
+                            <div class="home__card-shadow"></div>
+                        </a>
                     </article>
 
                     <article class="home__card">
-                      <a href="content.php?id=4" class="nav__link active-link"> 
-                        <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218656665763709000/a9e9317d749f498835d82b4956f7fc2aa8c9a766.jpg?ex=66087576&is=65f60076&hm=646f2ff156c2ead150cfd91d28478ea2cb821de1755bd87b03ff88bcd75c17ff&"
-                            alt="home image" class="home__card-img">
-                        <h3 class="home__card-title">ภาคตะวันออกเฉียงเหนือ</h3>
-                        <div class="home__card-shadow"></div>
-                      </a> 
+                        <a href="content.php?id=4" class="nav__link active-link">
+                            <img src="https://cdn.discordapp.com/attachments/964596839754104986/1218656665763709000/a9e9317d749f498835d82b4956f7fc2aa8c9a766.jpg?ex=66087576&is=65f60076&hm=646f2ff156c2ead150cfd91d28478ea2cb821de1755bd87b03ff88bcd75c17ff&"
+                                alt="home image" class="home__card-img">
+                            <h3 class="home__card-title">The North East</h3>
+                            <div class="home__card-shadow"></div>
+                        </a>
                     </article>
                 </div>
 
@@ -98,25 +109,21 @@
             <div class="about__container container grid">
                 <div class="about__data">
                     <h2 class="section__title">
-                        Learn More <br>
-                        adlaldp
+                        Additional <br>
+                        Information
                     </h2>
 
                     <p class="about__description">
-                        ajsodjasjodjsaodjoajso
-                        sadoa-od-osa-od
-                        asdadjjsudhiahdia
-                        sakd[aodoadddjjkk
+                        If you want more information
                     </p>
 
                     <a href="#" class="button">
-                        Explore sadadsda <i class="ri-arrow-right-line"></i>
+                        More information <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
 
                 <div class="about__image">
-                    <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
-                        alt="about image" class="about__img">
+                    <img src="img/wallpaperabout-1.jpg" alt="about image" class="about__img">
                     <div class="about__shadow"></div>
                 </div>
 
@@ -127,59 +134,56 @@
 
         <section class="popular section" id="popular">
             <h2 class="section__title">
-                sahdadsadsajdhajhdjask <br>
-                sadasduashdisha
+                Tourist attraction <br>
+                Interesting
             </h2>
 
             <div class="popular__container container grid">
                 <article class="popular__card">
                     <div class="popular__image">
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
-                            alt="popular image" class="popular__img">
+                        <img src="img/wallpaperpopulat-1.jpg" alt="popular image" class="popular__img">
                         <div class="popular__shadow"></div>
                     </div>
 
                     <h2 class="popular__title">
-                        dsfjosdfjs
+                        Koh Kood
                     </h2>
 
                     <div class="popular__location">
                         <i class="ri-map-pin-line"></i>
-                        <span>sadsada</span>
+                        <span>Trat Province</span>
                     </div>
                 </article>
 
                 <article class="popular__card">
                     <div class="popular__image">
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
-                            alt="popular image" class="popular__img">
+                        <img src="img/wallpaperpopulat-2.jpg" alt="popular image" class="popular__img">
                         <div class="popular__shadow"></div>
                     </div>
 
                     <h2 class="popular__title">
-                        sdfsdfsfs
+                        Jim Thompson Farm
                     </h2>
 
                     <div class="popular__location">
                         <i class="ri-map-pin-line"></i>
-                        <span>sadadsadad</span>
+                        <span>Nakhon Ratchasima</span>
                     </div>
                 </article>
 
                 <article class="popular__card">
                     <div class="popular__image">
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
-                            alt="popular image" class="popular__img">
+                        <img src="img/wallpaperpopulat-3.jpg" alt="popular image" class="popular__img">
                         <div class="popular__shadow"></div>
                     </div>
 
                     <h2 class="popular__title">
-                        dsfsdfsdfs
+                        Red Lotus Lake
                     </h2>
 
                     <div class="popular__location">
                         <i class="ri-map-pin-line"></i>
-                        <span>asdada</span>
+                        <span>Udon Thani</span>
                     </div>
                 </article>
 
@@ -199,23 +203,13 @@
                 <div class="explore__content container grid">
                     <div class="explore__data">
                         <h2 class="section__title">
-                            hdsfjsfhshdfs <br>
-                            sadasjdadsasd
+                            If you have any questions <br>
+                            Contact us
                         </h2>
 
                         <p class="explore__description">
-                            hasjdasdakhdasjhashdadjhkahdjas
-                            asdhjakjahskjashdkhahdsahkd
-                            sajdkasjdhashdkahdjahskhdas
-                            sajdakdjlkasjdljaskjdla
-                            sakdlasdjaksdjaljd.
+                            Can talk about tourist attractions or
                         </p>
-                    </div>
-
-                    <div class="explore__user">
-                        <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/295979137_452712706866717_3734687440674197484_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IOP2XDsX_S8AX-4Yvzz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDBGN378qzMzq-X8Fnr4ABW0NMzvVkBswYYX8ySznvyTg&oe=65F8191C"
-                            alt="explore image" class="explore__perfil">
-                        <span class="explore__name">ajdkasjda</span>
                     </div>
 
                 </div>
@@ -228,25 +222,25 @@
             <div class="join__container container grid">
                 <div class="join__data">
                     <h2 class="section__title">
-                        skdasjsald <br>
-                        asdoiap
+                        Can <br>
+                        Contact us
                     </h2>
 
                     <p class="join__description">
-                        asjdlajdlasjdjaljdlasadasda
+                        You can send us a message.                    
                     </p>
 
                     <form action="" class="join__form">
                         <input type="email" placeholder="Enter your email" class="join__input">
 
                         <button class="join__button button">
-                            dsdsjfsdfjlsdjflkds <i class="ri-arrow-right-line"></i>
+                            Send us a message <i class="ri-arrow-right-line"></i>
                         </button>
                     </form>
                 </div>
 
                 <div class="join__image">
-                    <img src="https://scontent.fkkc4-1.fna.fbcdn.net/v/t39.30808-6/275552213_516609656698360_2210619692264270354_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_r5qvtFCAYUAX8eTDb2&_nc_oc=AQkrrJtueFfqZ_nOlR8UaUb6fthfP3LZJpzmFajMRfOmQxEd0uSgqlhQqt6rUqfLbcRpcNKlmaD26sKN1-wgKeXz&_nc_ht=scontent.fkkc4-1.fna&oh=00_AfDtMWFfopyaZsZfWOSHE9F8Lw7k7JBscjfRUM82woJBpg&oe=65F81EC6"
+                    <img src="img/wallpaperhome-1.jpg"
                         alt="join image" class="join__img">
                     <div class="join__shadow"></div>
                 </div>
@@ -257,7 +251,7 @@
 
     <!-- footer -->
 
-   <?php include('footer.php'); ?>
+    <?php include ('footer.php'); ?>
 
     <!-- scroll up -->
 
@@ -275,4 +269,4 @@
 
 </body>
 
-</html>
+</html> 

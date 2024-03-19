@@ -1,7 +1,7 @@
 <header class="header" id="header">
         <nav class="nav container">
             <a href="index.php" class="nav__logo">
-                Travel
+                Travel <i class="ri-send-plane-fill"></i>
             </a>
 
             <div class="nav__menu" id="nav-menu">
@@ -21,7 +21,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="#explore" class="nav__link">Explore</a>
+                        <a href="#explore" class="nav__link">Contact</a>
                     </li>
                 </ul>
 

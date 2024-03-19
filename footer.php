@@ -5,8 +5,8 @@
                     <a href="" class="footer__logo">Travel</a>
 
                     <p class="footer__description">
-                        TJSLJDJKDJSKD <br>
-                        asjdijasodjojaadas
+                        Recommended website <br>
+                        tourist attraction
                     </p>
                 </div>
 
