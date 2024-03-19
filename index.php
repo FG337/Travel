@@ -109,21 +109,20 @@
             <div class="about__container container grid">
                 <div class="about__data">
                     <h2 class="section__title">
-                        Additional <br>
-                        Information
+                        Longdo MAP <br>
                     </h2>
 
                     <p class="about__description">
-                        If you want more information
+                       If you want to use a map
                     </p>
 
-                    <a href="#" class="button">
-                        More information <i class="ri-arrow-right-line"></i>
+                    <a href="Map.php" class="button">
+                        MAP <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
 
                 <div class="about__image">
-                    <img src="img/wallpaperabout-1.jpg" alt="about image" class="about__img">
+                    <img src="https://cdn.discordapp.com/attachments/946088226169438278/1219741145869979688/GoogleMapTA.webp?ex=660c6776&is=65f9f276&hm=cf33451ced5c1ad8d112a568aa5b5cee3e69f6229a19f4d19c805b2236b14c45&" alt="about image" class="about__img">
                     <div class="about__shadow"></div>
                 </div>
 
